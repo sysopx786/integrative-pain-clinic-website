@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://integrative-pain-clinic-refresh.valli349022.chatgpt.site/sitemap.xml
