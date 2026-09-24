@@ -9,7 +9,6 @@ Source files for the Integrative Pain Clinic website in West Chester, Pennsylvan
 | Private GitHub repository | [github.com/sysopx786/integrative-pain-clinic-website](https://github.com/sysopx786/integrative-pain-clinic-website) | Working. Access is limited to authorized GitHub users. |
 | Website files | [`dist/`](./dist/) | The finished HTML, CSS, JavaScript, images, sitemap, and policy pages are stored here. |
 | Public GitHub Pages website | [sysopx786.github.io/integrative-pain-clinic-website](https://sysopx786.github.io/integrative-pain-clinic-website/) | Deployment files are ready. The owner must enable GitHub Pages before this address stops returning a 404. |
-| ChatGPT Sites preview | [integrative-pain-clinic-refresh.valli349022.chatgpt.site](https://integrative-pain-clinic-refresh.valli349022.chatgpt.site/) | Preview only. Visitors are currently required to sign in. |
 | GitHub Pages settings | [Repository Pages settings](https://github.com/sysopx786/integrative-pain-clinic-website/settings/pages) | Select **GitHub Actions** under **Build and deployment**. |
 | Deployment runs | [GitHub Actions](https://github.com/sysopx786/integrative-pain-clinic-website/actions) | Shows the publication progress and any deployment errors. |
 
