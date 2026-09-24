@@ -1,21 +1,54 @@
 # Integrative Pain Clinic Website
 
-Source files for the Integrative Pain Clinic website in West Chester, Pennsylvania.
+Public source repository and production files for the Integrative Pain Clinic website in West Chester, Pennsylvania.
 
-## Website links
+## Current status
 
-| Link | Address | Current status |
+| Item | Status |
+|---|---|
+| Repository visibility | **Public** |
+| Website hosting | **Live on GitHub Pages** |
+| Deployment source | **GitHub Actions** |
+| Production folder | [`dist/`](./dist/) |
+| Default branch | `main` |
+| Automatic deployment | Runs whenever `main` changes |
+
+## Main links
+
+| Resource | Address | Status |
 |---|---|---|
-| Private GitHub repository | [github.com/sysopx786/integrative-pain-clinic-website](https://github.com/sysopx786/integrative-pain-clinic-website) | Working. Access is limited to authorized GitHub users. |
-| Website files | [`dist/`](./dist/) | The finished HTML, CSS, JavaScript, images, sitemap, and policy pages are stored here. |
-| Public GitHub Pages website | [sysopx786.github.io/integrative-pain-clinic-website](https://sysopx786.github.io/integrative-pain-clinic-website/) | Deployment files are ready. The owner must enable GitHub Pages before this address stops returning a 404. |
-| GitHub Pages settings | [Repository Pages settings](https://github.com/sysopx786/integrative-pain-clinic-website/settings/pages) | Select **GitHub Actions** under **Build and deployment**. |
-| Deployment runs | [GitHub Actions](https://github.com/sysopx786/integrative-pain-clinic-website/actions) | Shows the publication progress and any deployment errors. |
+| Live website | [sysopx786.github.io/integrative-pain-clinic-website](https://sysopx786.github.io/integrative-pain-clinic-website/) | Live |
+| Public GitHub repository | [github.com/sysopx786/integrative-pain-clinic-website](https://github.com/sysopx786/integrative-pain-clinic-website) | Public |
+| Production website files | [`dist/`](./dist/) | Published by the deployment workflow |
+| GitHub Actions | [Deployment history](https://github.com/sysopx786/integrative-pain-clinic-website/actions) | Shows current and previous deployments |
+| GitHub Pages settings | [Repository Pages settings](https://github.com/sysopx786/integrative-pain-clinic-website/settings/pages) | Enabled with **GitHub Actions** as the source |
 
-## Deployment status
+## Published website pages
 
-The repository includes an automatic GitHub Pages workflow at `.github/workflows/deploy-pages.yml`. It publishes the contents of `dist/` whenever `main` changes.
+| Page | Live address |
+|---|---|
+| Home | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/) |
+| Patient Resources | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/patient-resources.html) |
+| Privacy Policy | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/privacy.html) |
+| Terms of Use | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/terms.html) |
+| Cookie Policy | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/cookies.html) |
+| Accessibility | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/accessibility.html) |
+| Sitemap | [sitemap.xml](https://sysopx786.github.io/integrative-pain-clinic-website/sitemap.xml) |
+| Robots file | [robots.txt](https://sysopx786.github.io/integrative-pain-clinic-website/robots.txt) |
 
-To activate the public website, open the repository's **Pages settings** and select **GitHub Actions** as the source. Keeping the source repository private requires a GitHub plan that supports Pages for private repositories.
+## Deployment
+
+The workflow at [`.github/workflows/deploy-pages.yml`](./.github/workflows/deploy-pages.yml) publishes the contents of `dist/` to GitHub Pages whenever a change is pushed to `main`.
+
+The production folder includes `.nojekyll`, relative internal paths for the repository subdirectory, and canonical, Open Graph, sitemap, and robots references using the public GitHub Pages address.
+
+## Latest GitHub changes
+
+- Changed the repository from private to public.
+- Enabled GitHub Pages with GitHub Actions as the publishing source.
+- Added and successfully ran the automatic Pages deployment workflow.
+- Published the website from `dist/`.
+- Confirmed the live homepage returns HTTP 200.
+- Removed the obsolete ChatGPT Sites preview link.
 
 Last verified: September 24, 2026.
