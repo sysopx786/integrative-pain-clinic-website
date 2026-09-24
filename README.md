@@ -49,6 +49,6 @@ The production folder includes `.nojekyll`, relative internal paths for the repo
 - Added and successfully ran the automatic Pages deployment workflow.
 - Published the website from `dist/`.
 - Confirmed the live homepage returns HTTP 200.
-- Removed the obsolete ChatGPT Sites preview link.
+- Removed the obsolete preview reference.
 
 Last verified: September 24, 2026.
