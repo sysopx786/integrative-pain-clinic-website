@@ -123,13 +123,24 @@
         'Open directions': 'Abrir indicaciones',
         'For medical emergencies, call 911.': 'Para emergencias médicas, llame al 911.',
         'Cookie choices': 'Opciones de cookies',
+        'Privacy & data requests': 'Privacidad y solicitudes de datos',
+        'Privacy choices': 'Opciones de privacidad',
+        'This site uses essential technology for secure access and stores your selection. Optional YouTube videos load only after you allow optional media.': 'Este sitio usa tecnología esencial para el acceso seguro y guarda su selección. Los videos opcionales de YouTube se cargan solo después de permitir contenido multimedia opcional.',
+        'Read the Cookie Policy': 'Leer la Política de Cookies',
+        'Essential only': 'Solo lo esencial',
+        'Allow optional media': 'Permitir contenido multimedia opcional',
+        'Manage preferences': 'Administrar preferencias',
         'For current patients': 'Para pacientes actuales',
         'Forms and patient resources': 'Formularios y recursos para pacientes',
         'Complete your health update before your appointment. Find telehealth steps, medication guidance, and the clinic’s patient information below.': 'Complete su actualización de salud antes de su cita. Encuentre pasos de telesalud, orientación sobre medicamentos e información para pacientes a continuación.',
         'Open health update form ↗': 'Abrir formulario de actualización de salud ↗',
+        'Privacy note:': 'Aviso de privacidad:',
+        'This clinic link opens Google Forms and may request health information. Submit only the information requested by the clinic. Do not use the form for emergencies. See the': 'Este enlace de la clínica abre Google Forms y puede solicitar información de salud. Envíe solo la información solicitada por la clínica. No use el formulario para emergencias. Consulte la',
+        'Website Privacy Policy': 'Política de Privacidad del Sitio Web',
         'Before your visit': 'Antes de su visita',
         'Health update form': 'Formulario de actualización de salud',
         'If you receive opioids or Suboxone for pain, the clinic asks you to complete its health update form the day before your appointment.': 'Si recibe opioides o Suboxone para el dolor, la clínica le pide que complete su formulario de actualización de salud el día antes de su cita.',
+        'The form is hosted by Google for the clinic. Do not add information the clinic did not request, and do not submit an emergency through the form.': 'Google aloja el formulario para la clínica. No agregue información que la clínica no haya solicitado ni envíe una emergencia mediante el formulario.',
         'Complete the health update': 'Completar la actualización de salud',
         'Virtual visits': 'Visitas virtuales',
         'Join with Google Meet': 'Unirse con Google Meet',
@@ -281,6 +292,18 @@
       placeholder.hidden = allowMedia;
     });
 
+    document.querySelectorAll('[data-cookie-choice]').forEach((button) => {
+      button.setAttribute('aria-pressed', String(button.dataset.cookieChoice === preference));
+    });
+
+    const currentChoice = document.querySelector('[data-cookie-current]');
+    if (currentChoice) {
+      const spanish = getLocale() === 'es';
+      currentChoice.textContent = spanish
+        ? `Selección actual: ${allowMedia ? 'contenido multimedia opcional permitido' : 'solo lo esencial'}.`
+        : `Current choice: ${allowMedia ? 'Optional media allowed' : 'Essential only'}.`;
+    }
+
     document.documentElement.dataset.cookiePreference = preference || 'unset';
   };
 
@@ -289,18 +312,21 @@
     banner.className = 'cookie-banner';
     banner.dataset.cookieBanner = '';
     banner.setAttribute('role', 'dialog');
-    banner.setAttribute('aria-label', 'Cookie choices');
+    banner.setAttribute('aria-modal', 'false');
+    banner.setAttribute('aria-labelledby', 'cookie-banner-title');
     banner.setAttribute('aria-live', 'polite');
     banner.hidden = true;
     banner.innerHTML = `
       <div class="cookie-banner__content">
         <div>
-          <h2>Cookie choices</h2>
-          <p>This site uses essential technology for secure access and stores your selection. Optional YouTube videos load only after you allow optional media. <a href="/cookies.html">Read the Cookie Policy</a>.</p>
+          <h2 id="cookie-banner-title">Privacy choices</h2>
+          <p>This site uses essential technology for secure access and stores your selection. Optional YouTube videos load only after you allow optional media. <a href="cookies.html">Read the Cookie Policy</a>.</p>
+          <p class="cookie-current" data-cookie-current></p>
         </div>
         <div class="cookie-banner__actions">
-          <button type="button" class="cookie-secondary" data-cookie-choice="essential">Essential only</button>
-          <button type="button" class="cookie-primary" data-cookie-choice="media">Allow optional media</button>
+          <button type="button" class="cookie-secondary" data-cookie-choice="essential" aria-pressed="false">Essential only</button>
+          <button type="button" class="cookie-primary" data-cookie-choice="media" aria-pressed="false">Allow optional media</button>
+          <a class="cookie-manage" href="cookies.html">Manage preferences</a>
         </div>
       </div>`;
     document.body.appendChild(banner);
@@ -311,7 +337,8 @@
 
   const openBanner = () => {
     banner.hidden = false;
-    const current = getPreference();
+    const current = getPreference() || 'essential';
+    applyPreference(current);
     const selector = current === 'media' ? '[data-cookie-choice="media"]' : '[data-cookie-choice="essential"]';
     window.requestAnimationFrame(() => banner.querySelector(selector)?.focus());
   };

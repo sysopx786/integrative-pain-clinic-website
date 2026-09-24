@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://integrative-pain-clinic-refresh.valli349022.chatgpt.site/sitemap.xml
+Sitemap: https://sysopx786.github.io/integrative-pain-clinic-website/sitemap.xml

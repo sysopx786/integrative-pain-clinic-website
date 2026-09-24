@@ -8,11 +8,15 @@ Source files for the Integrative Pain Clinic website in West Chester, Pennsylvan
 |---|---|---|
 | Private GitHub repository | [github.com/sysopx786/integrative-pain-clinic-website](https://github.com/sysopx786/integrative-pain-clinic-website) | Working. Access is limited to authorized GitHub users. |
 | Website files | [`dist/`](./dist/) | The finished HTML, CSS, JavaScript, images, sitemap, and policy pages are stored here. |
-| Planned public GitHub Pages website | [sysopx786.github.io/integrative-pain-clinic-website](https://sysopx786.github.io/integrative-pain-clinic-website/) | Not published yet. This address currently returns a GitHub Pages 404. |
+| Public GitHub Pages website | [sysopx786.github.io/integrative-pain-clinic-website](https://sysopx786.github.io/integrative-pain-clinic-website/) | Deployment files are ready. The owner must enable GitHub Pages before this address stops returning a 404. |
 | ChatGPT Sites preview | [integrative-pain-clinic-refresh.valli349022.chatgpt.site](https://integrative-pain-clinic-refresh.valli349022.chatgpt.site/) | Preview only. Visitors are currently required to sign in. |
+| GitHub Pages settings | [Repository Pages settings](https://github.com/sysopx786/integrative-pain-clinic-website/settings/pages) | Select **GitHub Actions** under **Build and deployment**. |
+| Deployment runs | [GitHub Actions](https://github.com/sysopx786/integrative-pain-clinic-website/actions) | Shows the publication progress and any deployment errors. |
 
 ## Deployment status
 
-The repository is private. GitHub Pages still needs to be configured to deploy the contents of `dist/` before the planned public GitHub Pages address will work.
+The repository includes an automatic GitHub Pages workflow at `.github/workflows/deploy-pages.yml`. It publishes the contents of `dist/` whenever `main` changes.
+
+To activate the public website, open the repository's **Pages settings** and select **GitHub Actions** as the source. Keeping the source repository private requires a GitHub plan that supports Pages for private repositories.
 
 Last verified: September 24, 2026.
