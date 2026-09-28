@@ -195,6 +195,13 @@
         'Buprenorphine for chronic pain': 'Buprenorfina para dolor crónico',
         'Read the cited journal article': 'Leer el artículo citado',
         'Videos and reading': 'Videos y lectura',
+        'Videos & reading': 'Videos y lectura',
+        'Patient education': 'Educación para pacientes',
+        'Clinic-selected videos, articles, and safety resources for patients and families.': 'Videos, artículos y recursos de seguridad seleccionados por la clínica para pacientes y familias.',
+        'Forms & patient resources ↗': 'Formularios y recursos para pacientes ↗',
+        'Watch clinic-selected videos and open reading and safety resources on a separate patient education page.': 'Vea videos seleccionados por la clínica y consulte lecturas y recursos de seguridad en una página separada de educación para pacientes.',
+        'View videos & reading': 'Ver videos y lecturas',
+        'Ask about these resources or your treatment plan during office hours.': 'Pregunte sobre estos recursos o su plan de tratamiento durante el horario de oficina.',
         'More resources from the clinic': 'Más recursos de la clínica',
         'Allow optional media to load this YouTube video.': 'Permita medios opcionales para cargar este video de YouTube.',
         'Review cookie choices': 'Revisar opciones de cookies',
@@ -215,6 +222,9 @@
         'Individualized pain management and migraine care in West Chester, Pennsylvania. Learn about services, insurance, and office hours.': 'Manejo personalizado del dolor y atención para migraña en West Chester, Pennsylvania. Conozca los servicios, seguros y horarios de oficina.',
         'Professional Experience | Dr. Pankaj Garg | Integrative Pain Clinic': 'Experiencia profesional | Dr. Pankaj Garg | Integrative Pain Clinic',
         'Career history, education, training and professional credentials for Dr. Pankaj Garg at Integrative Pain Clinic in West Chester, Pennsylvania.': 'Trayectoria profesional, educación, formación y credenciales profesionales del Dr. Pankaj Garg en Integrative Pain Clinic en West Chester, Pennsylvania.',
+        'Videos & Reading | Integrative Pain Clinic': 'Videos y lecturas | Integrative Pain Clinic',
+        'Patient education videos, reading, and safety resources from Integrative Pain Clinic in West Chester, Pennsylvania.': 'Videos educativos para pacientes, lecturas y recursos de seguridad de Integrative Pain Clinic en West Chester, Pennsylvania.',
+        'Patient education videos, reading, and safety resources from Integrative Pain Clinic.': 'Videos educativos para pacientes, lecturas y recursos de seguridad de Integrative Pain Clinic.',
         'Patient Forms & Resources | Integrative Pain Clinic': 'Formularios y recursos para pacientes | Integrative Pain Clinic',
         'Health update form, telehealth instructions, medication guidance, prior authorization information, and patient resources from Integrative Pain Clinic.': 'Formulario de actualización de salud, instrucciones de telesalud, orientación sobre medicamentos, información de autorizaciones previas y recursos para pacientes de Integrative Pain Clinic.'
       }
