@@ -61,3 +61,11 @@
   .nav .wrap{min-height:86px}
   .brand-logo{width:178px;max-height:68px}
 }
+
+/* Sticky header clinic logo — final sizing */
+.brand--clinic-logo{display:flex;align-items:center;line-height:0;min-width:0}
+.brand--clinic-logo .brand-logo{display:block;width:178px;height:auto;max-height:68px;object-fit:contain;object-position:left center}
+@media(max-width:580px){
+  .nav .wrap{min-height:86px}
+  .brand--clinic-logo .brand-logo{width:178px;max-height:68px}
+}
