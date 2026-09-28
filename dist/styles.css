@@ -41,3 +41,8 @@
 
 /* Patient education homepage callout */
 .learning-home{padding-top:55px;padding-bottom:55px}.learning-panel{max-width:820px}.learning-panel h2{margin-bottom:14px}.learning-panel p{max-width:680px;margin-bottom:22px}
+
+
+/* Hero Google rating button */
+.hero-google-rating{display:inline-flex;align-items:center;gap:10px;min-height:50px;padding:8px 14px;background:#fff;color:#202124;text-decoration:none;border:1px solid #dadce0;border-radius:5px;box-shadow:0 4px 14px #3c404312;transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease}.hero-google-rating:hover{border-color:#1a73e8;box-shadow:0 7px 18px #3c40431c;transform:translateY(-1px)}.hero-google-rating:focus-visible{outline:3px solid #d2ab77;outline-offset:3px}.hero-google-rating>img{width:24px;height:24px;flex:none}.hero-google-copy{display:block;line-height:1.1}.hero-google-copy strong,.hero-google-copy small{display:block}.hero-google-copy strong{font-size:15px;color:#202124;white-space:nowrap}.hero-google-copy small{margin-top:4px;font-size:12px;color:#5f6368;white-space:nowrap}.hero-google-score{color:#3c4043}.hero-google-stars{color:#fbbc04;letter-spacing:.4px;font-size:13px}
+@media(max-width:580px){.hero .actions{align-items:stretch}.hero .actions .button,.hero-google-rating{flex:1 1 100%;width:100%}.hero-google-rating{justify-content:center}}
