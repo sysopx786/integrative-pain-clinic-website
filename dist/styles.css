@@ -29,3 +29,5 @@
 
 /* Inline Google Maps address link */
 .google-address-link{display:inline-flex;align-items:flex-start;gap:9px;color:#fff;text-decoration:underline;text-underline-offset:3px;font-weight:600;line-height:1.7}.google-address-link img{width:24px;height:24px;object-fit:contain;flex:none;margin-top:2px;background:#fff;border-radius:5px;padding:2px}.google-address-link:hover{color:#e8c493}.google-address-link:focus-visible{outline:3px solid #d2ab77;outline-offset:4px;border-radius:3px}
+
+.google-inline-address{display:inline-flex;align-items:center;gap:6px;color:#fff;text-decoration:underline;text-underline-offset:3px;font-weight:700}.google-inline-address img{width:20px;height:20px;object-fit:contain;background:#fff;border-radius:4px;padding:2px;flex:none}.google-inline-address:hover{color:#e8c493}.google-inline-address:focus-visible{outline:3px solid #d2ab77;outline-offset:3px;border-radius:3px}
