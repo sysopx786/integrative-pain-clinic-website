@@ -28,6 +28,7 @@ Public source repository and production files for the Integrative Pain Clinic we
 | Page | Live address |
 |---|---|
 | Home | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/) |
+| Professional Experience | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/professional-experience.html) |
 | Patient Resources | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/patient-resources.html) |
 | Privacy Policy | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/privacy.html) |
 | Terms of Use | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/terms.html) |
@@ -51,4 +52,4 @@ The production folder includes `.nojekyll`, relative internal paths for the repo
 - Confirmed the live homepage returns HTTP 200.
 - Removed the obsolete preview reference.
 
-Last verified: September 24, 2026.
+Last verified: September 28, 2026.
