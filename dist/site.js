@@ -7,6 +7,11 @@
         "Complex regional pain syndrome (CRPS / RSD)": "Síndrome de dolor regional complejo (SDRC / CRPS / RSD)",
         "Diabetic neuropathy": "Neuropatía diabética",
         "Fibromyalgia": "Fibromialgia",
+        "About": "Acerca de",
+        "About Dr. Garg": "Acerca del Dr. Garg",
+        "Read more about Dr. Garg’s professional experience ↗": "Leer más sobre la experiencia profesional del Dr. Garg ↗",
+        "Career history, education and professional credentials for Dr. Pankaj Garg.": "Trayectoria profesional, educación y credenciales profesionales del Dr. Pankaj Garg.",
+        "Back to Dr. Garg ↗": "Volver al Dr. Garg ↗",
         "Professional experience": "Experiencia profesional",
         "Education & training": "Educación y formación",
         "Professional credentials": "Credenciales profesionales",
@@ -208,6 +213,8 @@
       meta: {
         'Integrative Pain Clinic | West Chester, PA': 'Integrative Pain Clinic | West Chester, PA',
         'Individualized pain management and migraine care in West Chester, Pennsylvania. Learn about services, insurance, and office hours.': 'Manejo personalizado del dolor y atención para migraña en West Chester, Pennsylvania. Conozca los servicios, seguros y horarios de oficina.',
+        'Professional Experience | Dr. Pankaj Garg | Integrative Pain Clinic': 'Experiencia profesional | Dr. Pankaj Garg | Integrative Pain Clinic',
+        'Career history, education, training and professional credentials for Dr. Pankaj Garg at Integrative Pain Clinic in West Chester, Pennsylvania.': 'Trayectoria profesional, educación, formación y credenciales profesionales del Dr. Pankaj Garg en Integrative Pain Clinic en West Chester, Pennsylvania.',
         'Patient Forms & Resources | Integrative Pain Clinic': 'Formularios y recursos para pacientes | Integrative Pain Clinic',
         'Health update form, telehealth instructions, medication guidance, prior authorization information, and patient resources from Integrative Pain Clinic.': 'Formulario de actualización de salud, instrucciones de telesalud, orientación sobre medicamentos, información de autorizaciones previas y recursos para pacientes de Integrative Pain Clinic.'
       }
