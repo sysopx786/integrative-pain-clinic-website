@@ -147,6 +147,7 @@
         'Read a selection of recent public reviews, then open the Google listing to see the full review history.': 'Lea una selección de reseñas públicas recientes y luego abra la ficha de Google para ver el historial completo de reseñas.',
         'Google review summary': 'Resumen de reseñas de Google',
         '75 reviews': '75 reseñas',
+        '75 Google reviews': '75 reseñas de Google',
         '9 months ago': 'Hace 9 meses',
         'Edited 9 months ago': 'Editado hace 9 meses',
         'Read all 75 reviews on Google': 'Leer las 75 reseñas en Google',
