@@ -30,6 +30,7 @@ Public source repository and production files for the Integrative Pain Clinic we
 | Home | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/) |
 | Professional Experience | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/professional-experience.html) |
 | Patient Resources | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/patient-resources.html) |
+| Videos & Reading | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/videos-reading.html) |
 | Privacy Policy | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/privacy.html) |
 | Terms of Use | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/terms.html) |
 | Cookie Policy | [Open page](https://sysopx786.github.io/integrative-pain-clinic-website/cookies.html) |
