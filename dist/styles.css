@@ -69,3 +69,6 @@
   .nav .wrap{min-height:86px}
   .brand--clinic-logo .brand-logo{width:178px;max-height:68px}
 }
+
+/* Bilingual FAQ and responsive groups */
+.faq-es{display:none}html[lang="es"] .faq-en{display:none}html[lang="es"] .faq-es{display:inline}.faq-category{margin-bottom:42px}.faq-category h2{font-size:clamp(27px,3vw,36px);margin-bottom:16px}.faq-library details,.faq#faq details{border-bottom:1px solid #dbe2e2;padding:20px 0}.faq-library summary,.faq#faq summary{cursor:pointer;font-weight:700;font-size:17px;line-height:1.5}.faq-library details p,.faq#faq details p{margin:14px 0 0;max-width:880px}.faq-all-link{margin-top:27px}.faq-next{margin-top:45px}.faq-next h2{font-size:31px}.faq-library details:target{scroll-margin-top:110px} .faq-library summary:focus-visible{outline:3px solid #b98f57;outline-offset:4px}@media(max-width:580px){.faq-category{margin-bottom:32px}.faq-library details,.faq#faq details{padding:17px 0}}
